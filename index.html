@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#100d1a" />
+<title>杜冥鸦 · 配音演员作品集</title>
+<meta name="description" content="配音演员杜冥鸦的个人作品集：奇响天外配音演员、导演、策划。收录游戏配音、商业广播剧、网配广播剧、音乐作品、动画/PV 配音与线下活动行程。" />
+<meta name="keywords" content="杜冥鸦,配音演员,广播剧,游戏配音,声线,作品集,八重樱,凝光,镜流,奇响天外" />
+<meta name="author" content="杜冥鸦粉丝整理" />
+<meta property="og:title" content="杜冥鸦 · 配音演员作品集" />
+<meta property="og:description" content="声线多变，音色清冷。收录游戏配音、广播剧、音乐作品与线下活动全记录。" />
+<meta property="og:type" content="profile" />
+<meta name="twitter:card" content="summary_large_image" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" />
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+<link rel="apple-touch-icon" href="assets/img/favicon.svg" />
+<link rel="stylesheet" href="assets/css/main.css?v=20260909a" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">跳到主要内容</a>
+
+
+<div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#hero">杜冥鸦</a>
+
+    <nav class="nav-links" id="navLinks" aria-label="主导航">
+      <a class="nav-link" href="#hero">关于我</a>
+      <a class="nav-link" href="#games">游戏角色</a>
+      <a class="nav-link" href="#dramas">商业广播剧</a>
+      <a class="nav-link" href="#webdramas">非商广播剧</a>
+      <a class="nav-link" href="#music">音乐作品</a>
+      <a class="nav-link" href="#animation">动画/PV</a>
+      <a class="nav-link" href="#social">社交平台</a>
+      <a class="nav-link" href="#events">线下活动</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="搜索作品" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+      </button>
+      <button class="icon-btn" id="themeToggle" aria-label="切换深浅色主题">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<div class="search-panel" id="searchPanel">
+  <div class="search-panel-inner">
+    <input type="search" id="searchInput" placeholder="搜索作品名 / 角色 / 游戏 / 平台…" aria-label="搜索作品" autocomplete="off" />
+    <span class="search-count" id="searchCount"></span>
+    <button class="icon-btn" id="searchClose" aria-label="关闭搜索">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+</div>
+
+<main id="main">
+
+  
+  <section class="hero stage" id="hero">
+    
+    <div class="stage-bg" id="stageBg" aria-hidden="true"></div>
+    <div class="stage-veil" aria-hidden="true"></div>
+
+    <div class="stage-inner">
+      
+      <div class="stage-visual">
+        <div class="stage-glow" aria-hidden="true"></div>
+        <div class="stage-track" id="stageTrack" tabindex="0" aria-label="角色立绘，左右滑动切换"></div>
+        <button class="stage-arrow stage-arrow-prev" id="stageArrowPrev" type="button" aria-label="上一个角色"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="14.5 18 8.5 12 14.5 6"/></svg></button>
+        <button class="stage-arrow stage-arrow-next" id="stageArrowNext" type="button" aria-label="下一个角色"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><polyline points="9.5 18 15.5 12 9.5 6"/></svg></button>
+      </div>
+
+      
+      <div class="stage-info" id="stageInfo">
+        <div class="stage-eyebrow" id="stageEyebrow"></div>
+        <div class="stage-namewrap">
+          <h1 class="stage-name" id="stageName"></h1>
+          <span class="stage-title" id="stageTitle"></span>
+        </div>
+        <div class="stage-meta" id="stageMeta"></div>
+        <p class="stage-desc" id="stageDesc"></p>
+
+        
+        <div class="voice-player" id="voicePlayer">
+          <button class="voice-btn" id="voiceBtn" aria-label="播放角色语音">
+            <svg class="ico-play" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.5 5.5v13l11-6.5z"/></svg>
+            <svg class="ico-pause" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg>
+          </button>
+          <div class="voice-body">
+            <div class="voice-label" id="voiceLabel">声线试听</div>
+            <div class="voice-wave" id="voiceWave" aria-hidden="true"></div>
+            <div class="voice-bar"><i id="voiceProgress"></i></div>
+          </div>
+        </div>
+        <div class="voice-hint" id="voiceHint"></div>
+      </div>
+    </div>
+
+    
+    <div class="stage-switch" id="stageSwitch" role="tablist" aria-label="切换代表角色"></div>
+
+    
+    <a class="stage-scroll" href="#statStrip" aria-label="向下滚动">
+      <span>向下浏览作品</span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  
+  <section class="stat-strip" aria-label="作品总览">
+    <div class="stat-strip-inner" id="statStrip"></div>
+  </section>
+
+  
+  <section class="section" id="games">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Game Characters</div>
+        <h2 class="section-title">游戏角色</h2>
+      </header>
+      <div class="filter-bar" id="gameFilter" role="group" aria-label="按年份筛选"></div>
+      <div class="timeline" id="gameTimeline"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="dramas">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Commercial Audio Dramas</div>
+        <h2 class="section-title">商业广播剧</h2>
+      </header>
+      <div class="filter-bar" id="dramaFilter" role="group" aria-label="按年份筛选广播剧"></div>
+      <div id="dramaList"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="webdramas">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Non-commercial Audio Dramas</div>
+        <h2 class="section-title">非商广播剧</h2>
+      </header>
+      <div class="filter-bar" id="webFilter" role="group" aria-label="按年份筛选网配作品"></div>
+      <div id="webDramaPanel"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="music">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Music Works</div>
+        <h2 class="section-title">音乐作品</h2>
+      </header>
+      <div class="filter-bar" id="musicFilter" role="group" aria-label="按年份筛选音乐作品"></div>
+      <div id="musicGrid"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="animation">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Animation &amp; PV</div>
+        <h2 class="section-title">动画/PV</h2>
+      </header>
+      <div class="filter-bar" id="animFilter" role="group" aria-label="按分类筛选动画作品"></div>
+      <div id="animList"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="social">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Social Media</div>
+        <h2 class="section-title">社交平台</h2>
+      </header>
+      <div class="social-grid" id="socialGrid"></div>
+    </div>
+  </section>
+
+  
+  <section class="section" id="events">
+    <div class="section-inner">
+      <header class="section-header reveal">
+        <div class="section-eyebrow">Offline Events</div>
+        <h2 class="section-title">线下活动</h2>
+      </header>
+      <div class="filter-bar" id="eventFilter" role="group" aria-label="按年份筛选活动"></div>
+      <div id="eventList"></div>
+    </div>
+  </section>
+
+</main>
+
+
+<footer class="footer">
+  <div class="section-inner">
+    <p class="footer-quote" id="footerQuote"></p>
+    <p class="footer-copy" id="footerCopy"></p>
+    <button class="footer-toTop" id="toTop" aria-label="回到顶部">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5"/><polyline points="5 12 12 5 19 12"/></svg>
+    </button>
+  </div>
+</footer>
+
+
+<script src="assets/data/profile.js?v=20260925"></script>
+<script src="assets/data/games.js?v=20260925"></script>
+<script src="assets/data/animations.js?v=20260925"></script>
+<script src="assets/data/dramas.js?v=20260925"></script>
+<script src="assets/data/webdramas.js?v=20260925"></script>
+<script src="assets/data/earlyworks.js?v=20260925"></script>
+<script src="assets/data/socials.js?v=20260925"></script>
+<script src="assets/data/events.js?v=20260925"></script>
+<script src="assets/data/music.js?v=20260925"></script>
+<script src="assets/data/footer.js?v=20260925"></script>
+<script src="assets/js/app.js?v=20260909a"></script>
+</body>
+</html>
